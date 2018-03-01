@@ -10,7 +10,7 @@
 	</parent>
 
 	<artifactId>framework</artifactId>
-	
+
 	<packaging>pom</packaging>
 
 	<dependencies>
@@ -19,6 +19,12 @@
 			<groupId>org.apache.felix</groupId>
 			<artifactId>org.apache.felix.framework</artifactId>
 			<version>5.6.10</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.felix</groupId>
+			<artifactId>org.apache.felix.fileinstall</artifactId>
+			<version>3.6.4</version>
 		</dependency>
 
 		<dependency>
@@ -44,31 +50,37 @@
 			<artifactId>org.apache.felix.gogo.command</artifactId>
 			<version>1.0.2</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.apache.felix</groupId>
 			<artifactId>org.apache.felix.http.api</artifactId>
 			<version>3.0.0</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.apache.felix</groupId>
 			<artifactId>org.apache.felix.http.jetty</artifactId>
 			<version>3.4.8</version>
 		</dependency>
-		
+
+		<dependency>
+			<groupId>org.apache.felix</groupId>
+			<artifactId>org.apache.felix.http.servlet-api</artifactId>
+			<version>1.1.2</version>
+		</dependency>
+
 		<dependency>
 			<groupId>org.apache.felix</groupId>
 			<artifactId>org.apache.felix.scr</artifactId>
 			<version>2.0.14</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.apache.felix</groupId>
 			<artifactId>org.apache.felix.webconsole</artifactId>
 			<version>4.3.4</version>
 		</dependency>
-		
+
 	</dependencies>
-	
+
 </project>

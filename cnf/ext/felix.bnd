@@ -1,6 +1,0 @@
--plugin.enroute-distro = \
-    aQute.bnd.repository.maven.pom.provider.BndPomRepository; \
-        snapshotUrls=https://oss.sonatype.org/content/repositories/osgi/; \
-        releaseUrls=https://repo1.maven.org/maven2/; \
-        pom=${.}/pom.xml; \
-        name=Felix
