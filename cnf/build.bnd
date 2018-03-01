@@ -8,11 +8,6 @@ bin: \
 testbin: \
 	target/test-classes
 
--buildpath: \
-	osgi.core,\
-	osgi.cmpn,\
-	osgi.annotation
-
 -runee: JavaSE-1.8
 
 -runfw: org.apache.felix.framework;version='[5.6.10,5.6.10]'
@@ -22,9 +17,9 @@ testbin: \
 	osgi.identity;filter:='(osgi.identity=org.apache.felix.gogo.command)',\
 	osgi.identity;filter:='(osgi.identity=org.apache.felix.configadmin)',\
 	osgi.identity;filter:='(osgi.identity=org.apache.felix.eventadmin)',\
+	osgi.identity;filter:='(osgi.identity=org.apache.felix.fileinstall)',\
 	osgi.identity;filter:='(osgi.identity=org.apache.felix.http.jetty)',\
 	osgi.identity;filter:='(osgi.identity=org.apache.felix.webconsole)',\
-	osgi.identity;filter:='(osgi.identity=org.apache.felix.fileinstall)',\
 	osgi.identity;filter:='(osgi.identity=org.apache.felix.scr)'
 
 -runblacklist: osgi.identity;filter:='(&(osgi.identity=osgi.cmpn))'
