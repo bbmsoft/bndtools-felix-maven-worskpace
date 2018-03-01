@@ -119,5 +119,9 @@
 		</plugins>
 
 	</build>
+	
+	<modules>
+		<module>cnf</module>
+	</modules>
 
 </project>

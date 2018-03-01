@@ -13,4 +13,8 @@
 	
 	<packaging>pom</packaging>
 	
+	<modules>
+		<module>ext</module>
+	</modules>
+	
 </project>
