@@ -1,13 +1,11 @@
--plugin.1.felix = \
-    aQute.bnd.repository.maven.pom.provider.BndPomRepository; \
-        snapshotUrls=https://oss.sonatype.org/content/repositories/osgi/; \
-        releaseUrls=https://repo1.maven.org/maven2/; \
-        pom=${.}/pom.xml; \
-        name=Framework
-
--plugin.2.app = \
-    aQute.bnd.repository.maven.pom.provider.BndPomRepository; \
-        snapshotUrls=https://oss.sonatype.org/content/repositories/osgi/; \
-        releaseUrls=https://repo1.maven.org/maven2/; \
-        pom=${workspace}/pom.xml; \
-        name=App-Dependencies
+-plugin.maven = \
+	aQute.bnd.repository.maven.pom.provider.BndPomRepository; \
+		snapshotUrls=https://oss.sonatype.org/content/repositories/osgi/; \
+		releaseUrls=https://repo1.maven.org/maven2/; \
+		pom=${.}/pom.xml; \
+		name=Framework, \
+	aQute.bnd.repository.maven.pom.provider.BndPomRepository; \
+		snapshotUrls=https://oss.sonatype.org/content/repositories/osgi/; \
+		releaseUrls=https://repo1.maven.org/maven2/; \
+		pom=${workspace}/pom.xml; \
+		name=App-Dependencies

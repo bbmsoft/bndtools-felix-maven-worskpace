@@ -1,0 +1,7 @@
+-plugin.templates: \
+	aQute.bnd.deployer.repository.LocalIndexedRepo; \
+		name=Local ; \
+		pretty=true ; \
+		local=${build}/local
+
+-buildrepo: Local
